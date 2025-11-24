@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="110" viewBox="0 0 1000 110" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Typing headline">
+  <defs>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="1000" height="110"/>
+    </clipPath>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="110" fill="transparent"/>
+
+  <g clip-path="url(#clip)">
+    <text id="t1" x="30" y="70" fill="url(#grad)" font-family="Segoe UI, Roboto, Inter, Arial, sans-serif" font-size="40" font-weight="700" opacity="0">Software Developer</text>
+    <text id="t2" x="30" y="70" fill="url(#grad)" font-family="Segoe UI, Roboto, Inter, Arial, sans-serif" font-size="40" font-weight="700" opacity="0">Python • MERN • Flutter</text>
+    <text id="t3" x="30" y="70" fill="url(#grad)" font-family="Segoe UI, Roboto, Inter, Arial, sans-serif" font-size="40" font-weight="700" opacity="0">Detail‑oriented • Energetic</text>
+    <text id="t4" x="30" y="70" fill="url(#grad)" font-family="Segoe UI, Roboto, Inter, Arial, sans-serif" font-size="40" font-weight="700" opacity="0">Mentor • Team Lead</text>
+
+    <rect id="cursor" x="30" y="35" width="2" height="45" fill="#e5e7eb" opacity="0.9">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <animate xlink:href="#t1" attributeName="opacity" values="0;1;1;0" dur="12s" begin="0s" repeatCount="indefinite" keyTimes="0;0.08;0.32;0.4"/>
+    <animate xlink:href="#t2" attributeName="opacity" values="0;1;1;0" dur="12s" begin="0s" repeatCount="indefinite" keyTimes="0.4;0.48;0.72;0.8"/>
+    <animate xlink:href="#t3" attributeName="opacity" values="0;1;1;0" dur="12s" begin="0s" repeatCount="indefinite" keyTimes="0.8;0.88;1;1"/>
+    <animate xlink:href="#t4" attributeName="opacity" values="0;1;1;0" dur="12s" begin="0s" repeatCount="indefinite" keyTimes="0.16;0.24;0.32;0.4"/>
+  </g>
+</svg>
